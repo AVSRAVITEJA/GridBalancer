@@ -1,4 +1,4 @@
-# PVWindGridBalancer
+# GridBalancer
 
 PVgridBalancer is a modular renewable energy forecasting framework designed to provide accurate solar (PV) and wind power predictions, along with a structured foundation for future grid balancing intelligence.
 
