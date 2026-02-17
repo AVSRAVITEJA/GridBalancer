@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PVGRIDBALANCER
 ## Hybrid Microgrid Simulation with Frequency Regulation
 
@@ -55,6 +56,101 @@ PVGRIDBALANCER/
 ├── project_reference.md               # Theoretical background
 └── README.md                          # This file
 ```
+=======
+# GridBalancer
+
+PVgridBalancer is a modular renewable energy forecasting framework designed to provide accurate solar (PV) and wind power predictions, along with a structured foundation for future grid balancing intelligence.
+
+The system is built using production-safe machine learning pipelines with time-series validation and robustness testing to ensure reliability under real-world conditions.
+
+---
+
+## Project Overview
+
+The primary objectives of this repository are:
+
+- Develop accurate photovoltaic (PV) power forecasting models  
+- Develop accurate wind power forecasting models  
+- Perform stress testing under noisy conditions  
+- Provide a scalable foundation for future grid balancing intelligence  
+
+This repository currently focuses on the forecasting layer. The grid balancing engine will be implemented in future phases.
+
+---
+
+## Repository Structure
+
+PVgridBalancer/
+│
+├── data/preprocessed/
+│ ├── pv_dataset.csv
+│ └── wind_dataset.csv
+│
+├── models/
+│ ├── pv_forecast_v3.pkl
+│ └── wind_forecast_v3.pkl
+│
+├── scripts/
+│ ├── pv_forecasting_model.py
+│ ├── wind_forecasting_model.py
+│ ├── model_stress_test.py
+│ └── (planned) grid_balancing_engine.py
+│
+└── README.md
+
+
+---
+
+## Implemented Components
+
+### 1. PV Forecasting Model
+
+- Time-series aware training  
+- TimeSeries cross-validation  
+- Production-safe feature handling  
+- Serialized model output  
+
+Model file:
+models/pv_forecast_v3.pkl
+
+Performance (cross-validated):
+
+- R² ≈ 0.97  
+- RMSE ≈ 188 kW  
+- MAE ≈ 90 kW  
+
+---
+
+### 2. Wind Forecasting Model
+
+- TimeSeries cross-validation  
+- High predictive stability  
+- Production-ready training pipeline  
+
+Model file:
+models/wind_forecast_v3.pkl
+
+Performance (cross-validated):
+
+- R² ≈ 0.9996  
+- RMSE ≈ 13 kW  
+- MAE ≈ 2 kW  
+
+---
+
+### 3. Stress Testing Framework
+
+The stress testing module evaluates:
+
+- Baseline forecasting performance  
+- Model robustness under 5% feature noise  
+- Hybrid PV + Wind performance  
+
+This ensures resilience under sensor noise and environmental uncertainty.
+
+Run:
+python scripts/model_stress_test.py
+
 
 ---
 
