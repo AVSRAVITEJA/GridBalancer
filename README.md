@@ -18,10 +18,10 @@ PVGRIDBALANCER simulates a hybrid microgrid with:
 
 | Metric | Target | Achieved | Status |
 |--------|--------|----------|--------|
-| Mean Frequency | 50.0 Hz | 50.012 Hz | ✅ 0.012 Hz error |
-| Stability Rate | >95% | 95.7% | ✅ Achieved |
-| Battery SOC | 50% | 52.5% | ✅ Optimal |
-| Mean ACE | <300 kW | 3.94 kW | ✅ 76× better |
+| Mean Frequency | 50.0 Hz | 50.012 Hz | 0.012 Hz error |
+| Stability Rate | >95% | 95.7% | Achieved |
+| Battery SOC | 50% | 52.5% | Optimal |
+| Mean ACE | <300 kW | 3.94 kW | 76× better |
 
 ---
 
@@ -184,18 +184,18 @@ py scripts/hybrid_microgrid.py
 ### Expected Output
 
 ```
-📊 Frequency Performance:
+ Frequency Performance:
   Mean: 50.012 Hz (Target: 50.0 Hz)
   Stability: 95.7% (Target: >95%)
 
-🔋 Battery Performance:
+ Battery Performance:
   Mean SOC: 52.5% (Target: 50%)
 
-⚡ Grid Performance:
+ Grid Performance:
   Mean |ACE|: 3.94 kW (Target: <300 kW)
 
 TARGETS ACHIEVED: 4/4
-✅ SYSTEM OPERATIONAL
+ SYSTEM OPERATIONAL
 ```
 
 ### Data Preprocessing (Optional)
@@ -296,7 +296,7 @@ P_thermal_setpoint = max(0, P_load - MA(P_renewable))
 Net imbalance std: 1468.0 kW
 Required power (2×std): 2936.1 kW
 Actual power: 7000.0 kW
-Margin: 2.4× ✅
+Margin: 2.4× 
 ```
 
 ### Control Performance
@@ -458,7 +458,7 @@ Following industry best practices and academic standards for power systems engin
 
 ---
 
-**Status:** ✅ Production Ready  
-**Version:** 1.0  
+**Status:**  Production Ready  
+**Version:** 2.0  
 **Achievement:** All 4 targets met (100%)  
 **Last Updated:** February 18, 2026
