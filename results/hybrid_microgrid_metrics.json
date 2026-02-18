@@ -1,0 +1,20 @@
+{
+  "frequency_mean_hz": 50.01155360936686,
+  "frequency_std_hz": 0.25265440289683316,
+  "frequency_min_hz": 49.33333333333334,
+  "frequency_max_hz": 50.999999999999986,
+  "stability_rate": 0.957427536231884,
+  "battery_soc_mean": 0.5252915157469612,
+  "battery_soc_std": 0.08137341880832134,
+  "battery_power_mean": 1189.4646155539922,
+  "battery_power_max": 5935.673501496455,
+  "thermal_power_mean": 1422.7119537909675,
+  "thermal_utilization": 0.2845423907581935,
+  "ace_mean_kw": 3.9401424738985082,
+  "ace_max_kw": 19.999999999999716,
+  "rocof_mean": 0.0013866486649552858,
+  "rocof_max": 0.0013888888888888692,
+  "p_vsm_mean": 1184.1024228532724,
+  "p_agc_mean": 3.8582663562179307,
+  "p_soc_mean": 73.36518600326525
+}
