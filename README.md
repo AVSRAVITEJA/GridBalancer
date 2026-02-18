@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# PVGRIDBALANCER
+
+# GRIDBALANCER
 ## Hybrid Microgrid Simulation with Frequency Regulation
 
 A research-grade hybrid microgrid simulation combining renewable generation (solar + wind), thermal generator, and battery storage for grid frequency regulation. Achieves 95.7% stability with mean frequency of 50.012 Hz.
