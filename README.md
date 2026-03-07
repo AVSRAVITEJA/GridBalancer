@@ -78,6 +78,29 @@ This repository currently focuses on the forecasting layer. The grid balancing e
 
 ---
 
+## Repository Structure
+
+PVgridBalancer/
+│
+├── data/preprocessed/
+│ ├── pv_dataset.csv
+│ └── wind_dataset.csv
+│
+├── models/
+│ ├── pv_forecast_v3.pkl
+│ └── wind_forecast_v3.pkl
+│
+├── scripts/
+│ ├── pv_forecasting_model.py
+│ ├── wind_forecasting_model.py
+│ ├── model_stress_test.py
+│ └── (planned) grid_balancing_engine.py
+│
+└── README.md
+
+
+---
+
 ## Implemented Components
 
 ### 1. PV Forecasting Model
@@ -176,6 +199,10 @@ SYSTEM OPERATIONAL
 ```
 
 ### Data Preprocessing 
+ SYSTEM OPERATIONAL
+```
+
+### Data Preprocessing (Optional)
 
 If you want to reprocess the raw data:
 
@@ -408,6 +435,12 @@ base_load = avg_renewable * 1.70  # Adjust multiplier
 - Kundur, P. "Power System Stability and Control"
 - Wood, A. & Wollenberg, B. "Power Generation, Operation, and Control"
 - Zhong, Q. et al. "Synchronverters: Inverters That Mimic Synchronous Generators"
+
+---
+
+## License
+
+This project is for educational and research purposes.
 
 ---
 
