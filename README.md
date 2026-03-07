@@ -198,7 +198,7 @@ TARGETS ACHIEVED: 4/4
 SYSTEM OPERATIONAL
 ```
 
-### Data Preprocessing (Optional)
+### Data Preprocessing 
 
 If you want to reprocess the raw data:
 
