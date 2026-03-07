@@ -78,29 +78,6 @@ This repository currently focuses on the forecasting layer. The grid balancing e
 
 ---
 
-## Repository Structure
-
-PVgridBalancer/
-│
-├── data/preprocessed/
-│ ├── pv_dataset.csv
-│ └── wind_dataset.csv
-│
-├── models/
-│ ├── pv_forecast_v3.pkl
-│ └── wind_forecast_v3.pkl
-│
-├── scripts/
-│ ├── pv_forecasting_model.py
-│ ├── wind_forecasting_model.py
-│ ├── model_stress_test.py
-│ └── (planned) grid_balancing_engine.py
-│
-└── README.md
-
-
----
-
 ## Implemented Components
 
 ### 1. PV Forecasting Model
@@ -440,12 +417,6 @@ This project is for educational and research purposes.
 
 ---
 
-## License
-
-This project is for educational and research purposes.
-
----
-
 ## Acknowledgments
 
 This project successfully implements:
@@ -461,4 +432,4 @@ Following industry best practices and academic standards for power systems engin
 **Status:**  Production Ready  
 **Version:** 1.0  
 **Achievement:** All 4 targets met (100%)  
-**Last Updated:** February 18, 2026
+**Last Updated:** March 7, 2026
